@@ -41,6 +41,7 @@ repositories {
 }
 dependencies {
     detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.14.1")
+    implementation(kotlin("script-runtime"))
 }
 
 // Configure gradle-intellij-plugin plugin.
